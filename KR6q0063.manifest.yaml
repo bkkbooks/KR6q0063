@@ -1,0 +1,122 @@
+canonical_identifier: bkk:krp/KR6q0063/v1
+canonical_location: https://kanripo.org/bkk/KR6q0063/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大慧普覺禪師年譜
+  identifiers:
+    alt_id:
+    - J01nA042
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/J/J01/J01nA042.xml
+    old_id: J01nA042
+  edition:
+    short: bkk
+editions:
+- short: 嘉興
+  label: 嘉興
+  source_xml_id: wit.orig
+- short: J
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0063_000.yaml, hash: 'sha256:c1e00df5e081003df74288c662c4455aa4c528f4ecb482d7fa3af257af7b5ca6'}
+  - {seq: 1, filename: KR6q0063_001.yaml, hash: 'sha256:31edeb958d4e3175d7b407a71e78f16b7c5fa6e37f5467f87b97bae2b8806474'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6q0063_001.markers.yaml, hash: 'sha256:78fe90aad6cfcfa1108c4fe7936fb69e5bec5dc4f043e2d66fa785de0ec6cb13'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6q0063_J_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6q0063_J_000-mulu-2
+    span:
+    - front
+    - 127
+    - 127
+  label: 年譜
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-juan-start
+    span:
+    - body
+    - 0
+    - 25407
+  label: 大慧普覺禪師年譜
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 哲宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-2
+    span:
+    - body
+    - 549
+    - 549
+  label: 徽宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-3
+    span:
+    - body
+    - 7092
+    - 7092
+  label: 欽宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-4
+    span:
+    - body
+    - 7676
+    - 7676
+  label: 高宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-5
+    span:
+    - body
+    - 23676
+    - 23676
+  label: 孝宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0063_J_001-mulu-6
+    span:
+    - body
+    - 25197
+    - 25197
+  label: 後記
+  type: mulu
+  level: 1
+hash: sha256:f404978a08ea3cd01dbb68cc737089367d4f83586eaee451027e3555f128834f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
